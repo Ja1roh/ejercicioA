@@ -47,5 +47,12 @@
     left: 20px;
     background-image: url(https://media.tenor.com/_HFUjA1GPVMAAAAC/gato-bailar%C3%ADn.gif);
     background-size: 120px;
-    
+
+}
+#one {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: pink;
+    overflow:hidden;
 }
