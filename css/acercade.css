@@ -1,0 +1,48 @@
+*{ font-family: 'Franklin Gothic Medium';}
+
+h2{font-family: 'Times New Roman'; color: antiquewhite;}
+
+.card{background-color: bisque;}
+
+/*Parte de un section*/
+section{
+    width: 70%;
+    background-color: cornflowerblue;
+    float: left;
+    margin: 10px;
+}
+
+/*Parte del article*/
+article{
+    margin: 0.5em 3em 0em 0em;
+    padding: 0.5em 2em;
+    background-color: crimson;
+    border: 10px solid black;
+} /*Top, riht, bottom, left. si hay cuatro elementos, se respeta el orden, si solo hay dos
+el primer término afecta a arriba y abajo, mientras que el segundo afecta izquierda y derecha*/
+
+aside{
+    width: 25%;
+    float: left; /*Nos ayuda a indicar en que lado va aquedar flotando la sección modificada*/
+    background-color: darkgoldenrod;
+}
+
+footer{
+    background-color: blueviolet;
+    width: auto;
+    height: 60px;
+    text-align: center;
+    padding: 45px;
+    margin: 10px;
+    clear: both;
+}
+
+
+
+
+/*Medidas absolutas: Pixeles son medidas que no van a cambiar en el proyecto "px"*/
+/*Medias relativas: "em" se utiliza para hacer referencia a la fuente del navegador
+rem se adapta a la fuente reíz del html */
+/*Medidas flexibles: "vw" se calcula respecto al ancho del viewport por ejemplo
+100 vw es igual al 100% de la ventana. "vh" se calcula respecto a la altura del viewport
+vmin/vmax se calculan respecto al ancho del viewport*/
